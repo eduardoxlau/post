@@ -56,7 +56,7 @@ Rails.application.configure do
 
   config.action_mailer.smtp_settings = {
       address:              'smtp.gmail.com',
-      port:                 587,
+      port:                 1025,
       domain:               'pruebadocker.cloudapp.net',
       user_name:            'rsanchez', #the user is: dreamtic.kcumen@gmail.com
       password:             'Rafasanchez123',
