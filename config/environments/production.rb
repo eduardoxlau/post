@@ -56,12 +56,12 @@ Rails.application.configure do
 
   config.action_mailer.smtp_settings = {
       address:              'smtp.gmail.com',
-      port:                 1025,
+      port:                 587,
       domain:               'pruebadocker.cloudapp.net',
-      user_name:            'rsanchez', #the user is: dreamtic.kcumen@gmail.com
-      password:             'Rafasanchez123',
+      user_name:            'cafetheroe.kcumen', #the user is: cafetheroe.kcumen@gmail.com
+      password:             'ASasawsz1w1a',
       authentication:       'plain',
-      enable_starttls_auto: true
+      enable_starttls_auto: true  
   }
   config.i18n.fallbacks = true
 
